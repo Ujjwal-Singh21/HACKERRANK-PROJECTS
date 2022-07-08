@@ -8,7 +8,7 @@ function App ({ articles }) {
 
   const [state, setState] = useState('VOTE')
 
-  const setSortState = state => {
+  const setSortState = (state) => {
     setState(state)
   }
 
